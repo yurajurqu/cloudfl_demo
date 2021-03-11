@@ -57,6 +57,7 @@ DOWNLOADER_MIDDLEWARES = {
 #    'cloudfl_demo.middlewares.CloudflDemoDownloaderMiddleware': 543,
 }
 
+DUPEFILTER_CLASS = "scrapy.dupefilters.BaseDupeFilter"
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
 #EXTENSIONS = {

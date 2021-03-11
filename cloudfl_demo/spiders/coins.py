@@ -2,6 +2,8 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
+# class to modify
+# from scrapy_cloudflare_middleware.middlewares import CloudFlareMiddleware
 
 
 class CoinsSpider(CrawlSpider):
